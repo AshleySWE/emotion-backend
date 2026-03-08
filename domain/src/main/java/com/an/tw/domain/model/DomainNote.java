@@ -34,6 +34,10 @@ public class DomainNote {
         return emotion;
     }
 
+    public int getIntensity() {
+        return intensity;
+    }
+
     public LocalDateTime getCreatedAt() {
         return createdAt;
     }
