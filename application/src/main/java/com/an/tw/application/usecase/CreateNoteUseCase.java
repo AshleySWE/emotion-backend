@@ -1,11 +1,10 @@
 package com.an.tw.application.usecase;
 
-import com.an.tw.domain.entity.EmotionalNote;
 import com.an.tw.domain.model.DomainNote;
 import com.an.tw.domain.repository.EmotionalNoteRepository;
-import java.time.LocalDateTime;
-import java.util.UUID;
+import org.springframework.stereotype.Component;
 
+@Component
 public class CreateNoteUseCase {
     private final EmotionalNoteRepository repository;
 
